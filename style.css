@@ -1,46 +1,3 @@
-/*The Universal Selector is the * in CSS */ 
-/*matches all elements without any declared namespace*/
-* 
-{
-    font-family: "GeoEditRegular","Franklin Gothic Medium","Franklin Gothic","ITC Franklin Gothic",Helvetica,Arial,sans-serif;
-} 
-/*Attribute selector*/ 
-/*Selects all elements that have the given attribute.*/ 
-body {
-  background-color: #FFD51C;
-  background-image: url("besttof2019.jpg");
-  background-repeat: no-repeat;
-}
-#nh
-{
-    color: #FF207C;
-    font-family:"GeoBrandBold","CenturyGothic",AppleGothic,Gill Sans,Gill Sans MT,sans-serif;
-    text-transform:uppercase;
-    letter-spacing:3.5px;
-    line-height :1.105;
-    margin-bottom:20px;
-}
-p
-{
-    color: #547390; 
-    font-weight: normal; 
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size:large;
-    text-align: left;
-
-}
-/*ID selector*/ 
-/*Selects an element based on the value of its id attribute. There should be only one element with a given ID in a document.*/
-#np
-{
-    color: #3c3b6e; 
-    font-weight: normal; 
-    font-family: "GeoEditRegular","Franklin Gothic Medium","Franklin Gothic","ITC Franklin Gothic",Helvetica,Arial,sans-serif;
-    font: size 18px;;
-    text-align: left;
-    
-}
-#np::first-letter
 {
 font-size: x-large;
 border:3px solid whitesmoke;
@@ -56,7 +13,7 @@ border:3px solid whitesmoke;
 
 address {
     font-family: "GeoEditRegular","Franklin Gothic Medium","Franklin Gothic","ITC Franklin Gothic",Helvetica,Arial,sans-serif;
-    color:#b22234;
+    color:#27e64b;
     font-size:small;
 }
 address::after
@@ -66,7 +23,7 @@ content: "  par moi.";
 
 a:link
 {
-    color: rgb(255, 0, 179); 
+    color: #291670; 
     text-decoration:none ;
     font-weight: normal; 
     font-family: "GeoEditRegular","Franklin Gothic Medium","Franklin Gothic","ITC Franklin Gothic",Helvetica,Arial,sans-serif;
